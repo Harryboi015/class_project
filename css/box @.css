@@ -1,0 +1,28 @@
+.boxcontainer{
+    display: block;
+    padding: 1rem;
+    background-color: blue;
+    color: cornsilk;
+    flex-shrink: inherit;
+    margin: 13px;
+    justify-content: center;
+    flex-direction: row;
+    border-radius:2px ;
+
+}
+.box{
+    flex-basis:18%;
+    color: ivory;
+    padding: 1rem;
+    margin:1rem ;
+    background-color: lightcoral;
+    outline: lightgoldenrodyellow;
+}
+
+@media (max-width:991.98px) {
+
+    .none{
+        display: none;
+    }
+    
+}

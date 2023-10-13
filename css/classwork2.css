@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    align-items:center;
+    height: 5rem;
+
+
+}
+.box ul li{
+    display: inline;
+    justify-content: space-between;
+    width: 2rem;
+    padding: .6rem;
+}
+.banner{
+    background: ;
+    height: 71vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5rem;
+}
+.contact{
+    text-align: center;
+    padding: 38px;
+    margin:2.5rem ;
+    background: white;
+}
+.Git{
+    text-decoration: none;
+}
+.gitp{
+    font-size: 3rem;
+}
+.forms{
+    margin: 2rem;
+    padding: 3rem;
+    text-align: center;
+    justify-content: left;
+    flex-direction: column;
+    width: ;
+    
+}
+.ire>input,.ire>textarea{
+    width: 40%;
+    padding: 6rem;
+    box-shadow: none;
+
+}
+.ire>input{
+    height: 60px;
+}
+.ire{
+    padding: 0.7rem;
+    border-radius: 1rem;
+}
+.form >button{
+    height: 40px;
+    width: 40%;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.find-us{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+    margin: 3rem;
+    width: 90%;
+    border-radius: 5px;
+    height: 100px;
+
+
+}
+.chat{
+    justify-content: space-evenly;
+    padding: 2rem;
+    height: 250px;
+}
+.footer{
+    padding: 3rem;
+    color: white;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: space-around;
+    background: darkblue;
+}
+.footer ul li{
+    display: inline;
+
+}
+.footer ul li a{
+    color: white;
+    padding-right: 5px;
+}
+
+
+
+.mere{
+    width: .1rem;
+    height: 1px;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+.harry{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    text-align: center;
+ 
+    border-top-right-radius:2px ;
+    border-top-left-radius: 2px;
+
+    text-transform: capitalize;
+}
+.divs{
+    text-align:center ;
+    padding:19rem ;
+    justify-content: space-between;
+    
+}
